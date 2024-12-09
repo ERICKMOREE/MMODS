@@ -1,0 +1,371 @@
+# ExtraGore Particle Group Configuration
+# ------------------------------------------------------
+# This file enables the creation of custom blood particle properties for various entities.
+# Begin by uniquely naming each property group to effectively manage different settings.
+
+# Particle Behavior Options:
+# - Bounce: The particle will bounce off surfaces like a solid object.
+# - Stick: The particle will stick to walls and other surfaces.
+# - Magic: Some particles will fall to the ground while the majority will fly up to the sky.
+# - None: The particle won't have any special effects.
+
+# Particle Weight Options:
+# - Heavy: The particle will sink to the bottom when it's underwater.
+# - Light: The particle will float up to the top of the water.
+
+# Particle State Options:
+# - Liquid: The particle will get larger during its lifetime.
+# - Solid: The particle will remain the same size all the time.
+
+# Color Settings:
+# Set an RGB color value to visually distinguish particles for various entities.
+
+# How to Use:
+# 1. Define a group with a name, including behavior, weight, state, color and entity values.
+# 2. Example:
+#    ["Color Group Name"]
+#    behavior = Choose from "Stuck", "Bounce" or "None"
+#    weight = Choose from "Heavy" or "Light"
+#    state = Choose from "Liquid" or "Solid"
+#    color = "R,G,B"
+#    entities = ["entityID1", "entityID2"]
+# 3. You can modify or delete any predefined groups, except for the red group. The red group is non editable and serves only to show you unused entities which are compatible with different color groups.
+# 4. Add your custom color groups under an already predefined group, except for the red one.
+# 5. Ensure each color group has a unique name and is properly structured.
+
+# Note: Incorrectly formatted lines or unrecognized entity IDs will be ignored.
+# ------------------------------------------------------
+
+["Violet Group"]
+behavior = "Magic"
+weight = "Light"
+state = "Liquid"
+color = "128,0,128"
+entities = ["minecraft:enderman", "minecraft:endermite", "minecraft:phantom", "minecraft:shulker", "minecraft:silverfish", "minecraft:warden", "minecraft:ender_dragon"]
+
+["White Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,255"
+entities = ["minecraft:skeleton", "minecraft:ghast", "minecraft:iron_golem", "minecraft:skeleton_horse", "minecraft:snow_golem", "minecraft:stray", "minecraft:vex", "minecraft:wither_skeleton", "minecraft:allay", "minecraft:wither"]
+
+["Green Group"]
+behavior = "Stuck"
+weight = "Light"
+state = "Liquid"
+color = "0,255,0"
+entities = ["minecraft:cave_spider", "minecraft:creeper", "minecraft:slime", "minecraft:spider", "minecraft:witch"]
+
+["Yellow Group"]
+behavior = "Bounce"
+weight = "Heavy"
+state = "Solid"
+color = "255,255,0"
+entities = ["minecraft:blaze", "minecraft:magma_cube", "minecraft:strider"]
+
+["Blue Group"]
+behavior = "None"
+weight = "Light"
+state = "Liquid"
+color = "0,0,255"
+entities = ["minecraft:squid", "minecraft:elder_guardian", "minecraft:guardian", "minecraft:glow_squid"]
+
+# Auto generated red color group - do not edit. Use this as reference for unused entity IDs.
+"255,0,0" = [
+    "specialmobs:albinosilverfish",
+    "alexsmobs:snow_leopard",
+    "specialmobs:waterspider",
+    "mca:female_villager",
+    "alexsmobs:seal",
+    "alexsmobs:roadrunner",
+    "alexsmobs:laviathan",
+    "minecraft:trader_llama",
+    "alexsmobs:endergrade",
+    "minecraft:horse",
+    "specialmobs:ninjaskeleton",
+    "minecraft:llama",
+    "specialmobs:dirtcreeper",
+    "alexsmobs:maned_wolf",
+    "specialmobs:grapeslime",
+    "alexsmobs:skreecher",
+    "minecraft:tadpole",
+    "specialmobs:desertspider",
+    "minecraft:dolphin",
+    "alexsmobs:gelada_monkey",
+    "alexsmobs:hammerhead_shark",
+    "alexsmobs:dropbear",
+    "alexsmobs:tiger",
+    "alexsmobs:grizzly_bear",
+    "specialmobs:abyssaldrowned",
+    "specialmobs:palespider",
+    "alexsmobs:murmur_head",
+    "specialmobs:mirageenderman",
+    "specialmobs:potionslime",
+    "specialmobs:stickymagmacube",
+    "minecraft:bee",
+    "alexsmobs:devils_hole_pupfish",
+    "specialmobs:mothercavespider",
+    "minecraft:illusioner",
+    "tombstone:spectral_wolf",
+    "specialmobs:strayskeleton",
+    "minecraft:mooshroom",
+    "alexsmobs:bison",
+    "minecraft:drowned",
+    "specialmobs:sniperwitherskeleton",
+    "minecraft:axolotl",
+    "alexsmobs:gorilla",
+    "specialmobs:witherskeleton",
+    "specialmobs:gravelcreeper",
+    "alexsmobs:tusklin",
+    "specialmobs:brutezombifiedpiglin",
+    "alexsmobs:cosmic_cod",
+    "alexsmobs:underminer",
+    "minecraft:wandering_trader",
+    "specialmobs:bruteskeleton",
+    "specialmobs:webcavespider",
+    "specialmobs:watercavespider",
+    "specialmobs:fighterghast",
+    "alexsmobs:kangaroo",
+    "specialmobs:runicenderman",
+    "alexsmobs:hummingbird",
+    "specialmobs:hungryzombie",
+    "alexsmobs:crow",
+    "alexsmobs:guster",
+    "minecraft:pufferfish",
+    "specialmobs:skeleton",
+    "specialmobs:infernoblaze",
+    "minecraft:fox",
+    "specialmobs:joltblaze",
+    "specialmobs:firespider",
+    "alexsmobs:warped_toad",
+    "specialmobs:frozenslime",
+    "minecraft:chicken",
+    "alexsmobs:giant_squid",
+    "minecraft:zombie",
+    "specialmobs:endercreeper",
+    "alexsmobs:emu",
+    "specialmobs:firecreeper",
+    "alexsmobs:cockroach",
+    "alexsmobs:flutter",
+    "minecraft:hoglin",
+    "alexsmobs:capuchin_monkey",
+    "specialmobs:minienderman",
+    "minecraft:polar_bear",
+    "minecraft:zombified_piglin",
+    "specialmobs:lightningenderman",
+    "minecraft:turtle",
+    "minecraft:sheep",
+    "specialmobs:minicreeper",
+    "alexsmobs:rattlesnake",
+    "specialmobs:witch",
+    "specialmobs:firecavespider",
+    "alexsmobs:bone_serpent_part",
+    "specialmobs:knightdrowned",
+    "specialmobs:vampirezombifiedpiglin",
+    "alexsmobs:raccoon",
+    "minecraft:ravager",
+    "alexsmobs:bone_serpent",
+    "specialmobs:spider",
+    "alexsmobs:potoo",
+    "alexsmobs:fly",
+    "specialmobs:blindingenderman",
+    "specialmobs:queenghast",
+    "anthropology_items__structures:irradiated_zombie",
+    "alexsmobs:straddler",
+    "alexsmobs:sea_bear",
+    "bakery:wandering_baker",
+    "specialmobs:magmacube",
+    "specialmobs:poisonspider",
+    "alexsmobs:mudskipper",
+    "specialmobs:brutedrowned",
+    "alexsmobs:sugar_glider",
+    "specialmobs:fishingzombie",
+    "alexsmobs:crimson_mosquito",
+    "specialmobs:gatlingwitherskeleton",
+    "specialmobs:corporealshiftghast",
+    "specialmobs:undeadwitch",
+    "alexsmobs:orca",
+    "specialmobs:giantspider",
+    "alexsmobs:jerboa",
+    "specialmobs:plaguezombifiedpiglin",
+    "specialmobs:unholyghast",
+    "minecraft:bat",
+    "alexsmobs:cosmaw",
+    "specialmobs:firezombie",
+    "specialmobs:fishingzombifiedpiglin",
+    "alexsmobs:comb_jelly",
+    "specialmobs:creeper",
+    "specialmobs:windwitch",
+    "specialmobs:babyspider",
+    "specialmobs:bouncingmagmacube",
+    "specialmobs:desertcavespider",
+    "specialmobs:huskzombie",
+    "alexsmobs:skunk",
+    "specialmobs:frozenzombie",
+    "alexsmobs:enderiophage",
+    "alexsmobs:sunbird",
+    "alexsmobs:tasmanian_devil",
+    "specialmobs:slabghast",
+    "minecraft:cat",
+    "alexsmobs:stradpole",
+    "specialmobs:splittingcreeper",
+    "specialmobs:icyenderman",
+    "minecraft:tropical_fish",
+    "specialmobs:shadowswitch",
+    "minecraft:panda",
+    "minecraft:zombie_villager",
+    "alexsmobs:froststalker",
+    "specialmobs:doomcreeper",
+    "minecraft:giant",
+    "specialmobs:jumpingcreeper",
+    "alexsmobs:lobster",
+    "alexsmobs:seagull",
+    "alexsmobs:moose",
+    "specialmobs:firesilverfish",
+    "alexsmobs:shoebill",
+    "alexsmobs:farseer",
+    "specialmobs:lightningcreeper",
+    "specialmobs:sniperskeleton",
+    "alexsmobs:warped_mosco",
+    "minecraft:husk",
+    "mca:female_zombie_villager",
+    "specialmobs:giantzombie",
+    "mca:male_villager",
+    "specialmobs:webspider",
+    "alexsmobs:komodo_dragon",
+    "minecraft:donkey",
+    "minecraft:piglin_brute",
+    "specialmobs:gatlingskeleton",
+    "specialmobs:fishingsilverfish",
+    "alexsmobs:crocodile",
+    "specialmobs:skeletoncreeper",
+    "alexsmobs:triops",
+    "alexsmobs:rhinoceros",
+    "specialmobs:armoredblaze",
+    "alexsmobs:frilled_shark",
+    "specialmobs:plaguedrowned",
+    "specialmobs:brutewitherskeleton",
+    "specialmobs:scopecreeper",
+    "specialmobs:slime",
+    "alexsmobs:bald_eagle",
+    "alexsmobs:blobfish",
+    "specialmobs:brutezombie",
+    "specialmobs:giantdrowned",
+    "specialmobs:hellfireblaze",
+    "alexsmobs:mimicube",
+    "alexsmobs:void_worm",
+    "minecraft:parrot",
+    "specialmobs:sandcreeper",
+    "specialmobs:drowned",
+    "specialmobs:plaguezombie",
+    "alexsmobs:centipede_head",
+    "specialmobs:silverfish",
+    "specialmobs:puffersilverfish",
+    "specialmobs:strawberryslime",
+    "minecraft:frog",
+    "specialmobs:enderman",
+    "alexsmobs:banana_slug",
+    "specialmobs:kingghast",
+    "specialmobs:zombie",
+    "alexsmobs:mimic_octopus",
+    "alexsmobs:bunfungus",
+    "alexsmobs:void_worm_part",
+    "specialmobs:weatheredskeleton",
+    "minecraft:mule",
+    "specialmobs:thiefenderman",
+    "specialmobs:emberblaze",
+    "minecraft:vindicator",
+    "specialmobs:hardenedmagmacube",
+    "specialmobs:ghast",
+    "alexsmobs:flying_fish",
+    "specialmobs:flyingcavespider",
+    "minecraft:evoker",
+    "specialmobs:giantwitherskeleton",
+    "alexsmobs:tarantula_hawk",
+    "specialmobs:frozendrowned",
+    "alexsmobs:cachalot_whale",
+    "specialmobs:fishingdrowned",
+    "specialmobs:blueberryslime",
+    "specialmobs:palecavespider",
+    "specialmobs:flyingspider",
+    "specialmobs:drowningcreeper",
+    "specialmobs:wildswitch",
+    "specialmobs:snowcreeper",
+    "specialmobs:flyingsilverfish",
+    "tombstone:grave_guardian",
+    "alexsmobs:terrapin",
+    "specialmobs:blindingsilverfish",
+    "specialmobs:hungryzombifiedpiglin",
+    "alexsmobs:anaconda",
+    "specialmobs:knightskeleton",
+    "specialmobs:cavespider",
+    "mca:grim_reaper",
+    "specialmobs:desiccatedsilverfish",
+    "specialmobs:watermelonslime",
+    "minecraft:pig",
+    "alexsmobs:alligator_snapping_turtle",
+    "specialmobs:flameenderman",
+    "specialmobs:ninjawitherskeleton",
+    "minecraft:goat",
+    "mca:male_zombie_villager",
+    "minecraft:cod",
+    "specialmobs:fireskeleton",
+    "alexsmobs:mantis_shrimp",
+    "alexsmobs:platypus",
+    "specialmobs:spitfirewitherskeleton",
+    "specialmobs:blaze",
+    "minecraft:cow",
+    "alexsmobs:rocky_roller",
+    "alexsmobs:soul_vulture",
+    "alexsmobs:blue_jay",
+    "specialmobs:deathcreeper",
+    "alexsmobs:toucan",
+    "minecraft:salmon",
+    "specialmobs:knightzombifiedpiglin",
+    "specialmobs:hungrydrowned",
+    "specialmobs:giantskeleton",
+    "specialmobs:babycavespider",
+    "alexsmobs:anteater",
+    "alexsmobs:rain_frog",
+    "specialmobs:wildfireblaze",
+    "minecraft:rabbit",
+    "minecraft:pillager",
+    "specialmobs:volatilemagmacube",
+    "alexsmobs:murmur",
+    "specialmobs:lemonslime",
+    "minecraft:zoglin",
+    "alexsmobs:leafcutter_ant",
+    "specialmobs:toughsilverfish",
+    "alexsmobs:mungus",
+    "alexsmobs:caiman",
+    "specialmobs:poisonskeleton",
+    "alexsmobs:spectre",
+    "specialmobs:hungryspider",
+    "alexsmobs:catfish",
+    "minecraft:piglin",
+    "specialmobs:darkcreeper",
+    "alexsmobs:skelewag",
+    "specialmobs:dominationwitch",
+    "specialmobs:caramelslime",
+    "alexsmobs:elephant",
+    "specialmobs:zombifiedpiglin",
+    "specialmobs:poisonsilverfish",
+    "specialmobs:witchcavespider",
+    "alexsmobs:gazelle",
+    "minecraft:sniffer",
+    "minecraft:zombie_horse",
+    "minecraft:camel",
+    "specialmobs:conflagrationblaze",
+    "specialmobs:babyghast",
+    "specialmobs:madscientistzombie",
+    "specialmobs:cinderblaze",
+    "specialmobs:giantzombifiedpiglin",
+    "specialmobs:witchspider",
+    "specialmobs:motherspider",
+    "minecraft:ocelot",
+    "specialmobs:spitfireskeleton",
+    "minecraft:wolf",
+    "specialmobs:blackberryslime",
+    "specialmobs:knightwitherskeleton"
+]
