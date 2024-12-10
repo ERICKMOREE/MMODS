@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "fc49b98d-c1e0-36fe-a9cf-b4bdfb17c3c3",
+    "name": "Checksito",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b41d53dc-0644-38c2-85a5-cfaa24ccfd34",
     "name": "LELI13",
     "level": 4,
@@ -8,6 +14,12 @@
   {
     "uuid": "48adbf78-e156-38cf-916b-681f973f4954",
     "name": "Kchetes",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f77b0ebb-6b8f-3ab1-b779-6407b30cfc89",
+    "name": "Chos28",
     "level": 4,
     "bypassesPlayerLimit": false
   }
