@@ -540,3 +540,9 @@
 [10Dec2024 01:09:01.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kchetes has made the advancement [Sweet Dreams]
 [10Dec2024 01:09:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LELI13 has made the advancement [Sweet Dreams]
 [10Dec2024 01:12:21.708] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-59, z=246}
+[10Dec2024 01:24:53.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kchetes has made the advancement [Best Friends Forever]
+[10Dec2024 01:26:41.830] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 60.00 seconds (should be max 0.05)
+[10Dec2024 01:26:41.831] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[10Dec2024 01:26:42.108] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 64912d02-0994-4a42-a867-2dd63a1e6be6
+[10Dec2024 01:26:42.132] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 15721ff9-940f-434c-a631-86f963767f05
+[10Dec2024 01:26:42.132] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/MMODS/servidor_minecraft/./crash-reports/crash-2024-12-10_01.26.42-server.txt
