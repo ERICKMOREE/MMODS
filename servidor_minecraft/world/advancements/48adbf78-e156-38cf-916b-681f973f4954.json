@@ -32,6 +32,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-12-10 01:12:54 +0000",
       "minecraft:river": "2024-12-09 06:13:33 +0000",
       "minecraft:forest": "2024-12-09 05:39:45 +0000",
       "minecraft:plains": "2024-12-09 05:59:58 +0000"
@@ -303,6 +304,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-10 01:12:06 +0000",
       "cooked_mutton": "2024-12-09 06:02:08 +0000",
       "cooked_beef": "2024-12-09 06:10:01 +0000",
       "apple": "2024-12-09 05:44:16 +0000",
@@ -955,7 +957,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-09 06:09:04 +0000",
+      "minecraft:spider": "2024-12-10 00:59:09 +0000",
       "minecraft:creeper": "2024-12-09 06:10:16 +0000",
+      "minecraft:wither_skeleton": "2024-12-10 00:57:07 +0000",
       "minecraft:husk": "2024-12-09 05:56:50 +0000",
       "minecraft:cave_spider": "2024-12-09 06:18:14 +0000",
       "minecraft:silverfish": "2024-12-09 05:58:02 +0000",
@@ -973,20 +977,27 @@
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
+      "specialmobs:waterspider": "2024-12-10 00:59:09 +0000",
       "specialmobs:firesilverfish": "2024-12-09 06:44:12 +0000",
       "specialmobs:cavespider": "2024-12-09 06:18:14 +0000",
       "specialmobs:fireskeleton": "2024-12-09 06:39:18 +0000",
+      "specialmobs:spider": "2024-12-10 01:00:01 +0000",
       "minecraft:creeper": "2024-12-09 05:56:50 +0000",
+      "specialmobs:gatlingskeleton": "2024-12-10 01:04:04 +0000",
       "specialmobs:fishingsilverfish": "2024-12-09 06:44:05 +0000",
       "specialmobs:mothercavespider": "2024-12-09 06:35:38 +0000",
       "specialmobs:babycavespider": "2024-12-09 06:35:31 +0000",
+      "specialmobs:fishingzombie": "2024-12-10 01:02:26 +0000",
+      "specialmobs:witherskeleton": "2024-12-10 00:57:07 +0000",
+      "specialmobs:giantspider": "2024-12-10 01:05:31 +0000",
       "specialmobs:silverfish": "2024-12-09 06:43:41 +0000",
       "specialmobs:puffersilverfish": "2024-12-09 05:58:02 +0000",
       "specialmobs:watercavespider": "2024-12-09 06:18:31 +0000",
       "specialmobs:creeper": "2024-12-09 06:08:44 +0000",
       "specialmobs:zombie": "2024-12-09 05:56:50 +0000",
       "specialmobs:witchcavespider": "2024-12-09 06:28:32 +0000",
-      "specialmobs:skeleton": "2024-12-09 06:09:04 +0000"
+      "specialmobs:skeleton": "2024-12-09 06:09:04 +0000",
+      "specialmobs:spitfireskeleton": "2024-12-10 01:02:18 +0000"
     },
     "done": false
   },
@@ -1173,6 +1184,7 @@
   "regions_unexplored:regions_explored": {
     "criteria": {
       "shrubland": "2024-12-09 05:59:59 +0000",
+      "maple_forest": "2024-12-10 01:11:45 +0000",
       "temperate_grove": "2024-12-09 06:04:34 +0000"
     },
     "done": false
@@ -1180,6 +1192,7 @@
   "regions_unexplored:pioneer": {
     "criteria": {
       "shrubland": "2024-12-09 05:59:59 +0000",
+      "maple_forest": "2024-12-10 01:11:45 +0000",
       "temperate_grove": "2024-12-09 06:04:34 +0000"
     },
     "done": false
@@ -1316,8 +1329,10 @@
       "has_iron_leggings": "2024-12-09 06:25:29 +0000",
       "has_iron_pickaxe": "2024-12-09 06:26:45 +0000",
       "has_chainmail_helmet": "2024-12-09 06:32:43 +0000",
+      "has_chainmail_leggings": "2024-12-10 01:02:43 +0000",
       "has_chainmail_boots": "2024-12-09 06:07:37 +0000",
-      "has_chainmail_chestplate": "2024-12-09 06:24:16 +0000"
+      "has_chainmail_chestplate": "2024-12-09 06:24:16 +0000",
+      "has_iron_chestplate": "2024-12-10 01:03:07 +0000"
     },
     "done": false
   },
@@ -1327,8 +1342,10 @@
       "has_iron_leggings": "2024-12-09 06:25:29 +0000",
       "has_iron_pickaxe": "2024-12-09 06:26:45 +0000",
       "has_chainmail_helmet": "2024-12-09 06:32:43 +0000",
+      "has_chainmail_leggings": "2024-12-10 01:02:43 +0000",
       "has_chainmail_boots": "2024-12-09 06:07:37 +0000",
-      "has_chainmail_chestplate": "2024-12-09 06:24:16 +0000"
+      "has_chainmail_chestplate": "2024-12-09 06:24:16 +0000",
+      "has_iron_chestplate": "2024-12-10 01:03:07 +0000"
     },
     "done": false
   },
@@ -1996,6 +2013,7 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2024-12-09 06:34:15 +0000",
+      "iron_chestplate": "2024-12-10 01:03:07 +0000",
       "iron_leggings": "2024-12-09 06:25:29 +0000"
     },
     "done": false
@@ -2293,6 +2311,156 @@
       "coded_trigger": "2024-12-09 20:19:19 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-10 01:09:01 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/ash": {
+    "criteria": {
+      "has_gunpowder": "2024-12-10 01:04:04 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/building_blocks/mossy_stone_from_blasting_mossy_cobblestone": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2024-12-10 01:13:00 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-12-10 01:04:04 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/building_blocks/mossy_stone_from_smelting_mossy_cobblestone": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 00:58:48 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 01:04:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2024-12-10 00:58:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-12-10 01:04:04 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

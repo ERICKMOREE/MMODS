@@ -536,3 +536,7 @@
 [10Dec2024 00:53:15.333] [Server thread/INFO] [Jade/]: Syncing config to LELI13 (b41d53dc-0644-38c2-85a5-cfaa24ccfd34)
 [10Dec2024 00:53:15.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LELI13 has made the advancement [Mysterious Gift]
 [10Dec2024 00:53:17.685] [Netty Epoll Server IO #7/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from LELI13
+[10Dec2024 01:04:04.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kchetes has reached the goal [Bone Crusher]
+[10Dec2024 01:09:01.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kchetes has made the advancement [Sweet Dreams]
+[10Dec2024 01:09:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LELI13 has made the advancement [Sweet Dreams]
+[10Dec2024 01:12:21.708] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-59, z=246}

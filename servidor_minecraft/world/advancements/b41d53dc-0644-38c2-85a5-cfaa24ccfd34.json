@@ -13,9 +13,10 @@
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-12-09 05:39:47 +0000"
+      "unlock_right_away": "2024-12-09 05:39:47 +0000",
+      "has_the_recipe": "2024-12-10 00:55:23 +0000"
     },
-    "done": false
+    "done": true
   },
   "tombstone:adventure/root": {
     "criteria": {
@@ -31,6 +32,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-12-10 01:12:55 +0000",
       "minecraft:river": "2024-12-09 06:13:44 +0000",
       "minecraft:forest": "2024-12-09 05:39:47 +0000",
       "minecraft:plains": "2024-12-09 06:00:03 +0000"
@@ -640,9 +642,10 @@
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
+      "has_the_recipe": "2024-12-10 00:55:39 +0000",
       "has_lots_of_items": "2024-12-09 05:49:00 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
@@ -657,6 +660,7 @@
       "baked_potato": "2024-12-09 06:40:49 +0000",
       "apple": "2024-12-09 05:49:11 +0000",
       "golden_apple": "2024-12-09 06:34:44 +0000",
+      "bread": "2024-12-10 01:02:37 +0000",
       "melon_slice": "2024-12-09 06:10:02 +0000",
       "carrot": "2024-12-09 06:43:40 +0000"
     },
@@ -1244,7 +1248,9 @@
       "specialmobs:babycavespider": "2024-12-09 06:35:43 +0000",
       "specialmobs:witherskeleton": "2024-12-09 06:44:00 +0000",
       "specialmobs:silverfish": "2024-12-09 06:44:19 +0000",
+      "specialmobs:creeper": "2024-12-10 01:00:47 +0000",
       "specialmobs:zombie": "2024-12-09 06:08:53 +0000",
+      "specialmobs:flyingcavespider": "2024-12-10 01:02:55 +0000",
       "specialmobs:skeleton": "2024-12-09 06:32:34 +0000"
     },
     "done": false
@@ -1466,9 +1472,129 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-10 01:09:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2024-12-10 01:13:03 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
   "tombstone:adventure/mysterious_gift": {
     "criteria": {
       "coded_trigger": "2024-12-10 00:53:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-12-10 01:04:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-12-10 01:04:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-12-10 00:55:23 +0000"
     },
     "done": true
   },
