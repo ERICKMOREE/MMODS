@@ -2653,9 +2653,10 @@
   },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
+      "has_the_recipe": "2024-12-10 03:59:23 +0000",
       "has_iron_ingot": "2024-12-10 03:10:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "securitycraft:recipes/misc/disguise_module": {
     "criteria": {
@@ -3252,12 +3253,6 @@
     },
     "done": false
   },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2024-12-10 03:33:33 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/decorations/spruce_branch_from_spruce_log": {
     "criteria": {
       "has_log": "2024-12-10 03:32:55 +0000"
@@ -3276,17 +3271,65 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-12-10 03:32:55 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:33:33 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/create_familiar_receptacle": {
     "criteria": {
       "has_familiar_receptacle": "2024-12-10 03:33:33 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "tombstone:recipes/from_grave_key": {
     "criteria": {
-      "has_logs": "2024-12-10 03:32:55 +0000"
+      "has_ingredient": "2024-12-10 04:02:07 +0000"
+    },
+    "done": true
+  },
+  "bakery:recipes/butter": {
+    "criteria": {
+      "has_water_bucket": "2024-12-10 03:59:48 +0000"
     },
     "done": false
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 04:02:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-10 03:59:48 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 04:02:05 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-12-10 04:02:07 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:52:46 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

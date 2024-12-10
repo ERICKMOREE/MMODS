@@ -1023,6 +1023,7 @@
       "specialmobs:silverfish": "2024-12-09 06:43:41 +0000",
       "specialmobs:puffersilverfish": "2024-12-09 05:58:02 +0000",
       "specialmobs:watercavespider": "2024-12-09 06:18:31 +0000",
+      "specialmobs:enderman": "2024-12-10 03:58:10 +0000",
       "specialmobs:creeper": "2024-12-09 06:08:44 +0000",
       "specialmobs:zombie": "2024-12-09 05:56:50 +0000",
       "specialmobs:witchcavespider": "2024-12-09 06:28:32 +0000",
@@ -2994,6 +2995,12 @@
       "has_birch_sapling": "2024-12-10 03:33:07 +0000"
     },
     "done": false
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:53:34 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

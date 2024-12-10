@@ -32,7 +32,9 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2024-12-10 03:18:17 +0000",
+      "minecraft:river": "2024-12-10 03:57:47 +0000",
       "minecraft:forest": "2024-12-10 03:13:28 +0000",
+      "minecraft:ocean": "2024-12-10 03:59:18 +0000",
       "minecraft:plains": "2024-12-10 03:13:35 +0000"
     },
     "done": false
@@ -495,45 +497,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
   "regions_unexplored:recipes/transportation/maple_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "tombstone:recipes/from_grave_key": {
-    "criteria": {
-      "has_ingredient": "2024-12-10 03:33:23 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/transportation/magnolia_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2024-12-10 03:31:17 +0000"
     },
     "done": false
   },
@@ -549,18 +521,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2024-12-10 03:33:29 +0000"
-    },
-    "done": true
-  },
   "regions_unexplored:recipes/transportation/kapok_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
@@ -573,82 +533,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2024-12-10 03:32:51 +0000"
-    },
-    "done": false
-  },
-  "comforts:sleeping_bag_white": {
-    "criteria": {
-      "has_white_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
   "regions_unexplored:recipes/transportation/larch_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
     },
     "done": false
   },
-  "tombstone:adventure/first_grave": {
-    "criteria": {
-      "coded_trigger": "2024-12-10 03:33:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "usefulbackpacks:recipes/backpack_small": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000",
-      "has_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/teleport_to_grave": {
-    "criteria": {
-      "coded_trigger": "2024-12-10 03:33:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2024-12-10 03:32:51 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/cooked_beef": {
-    "criteria": {
-      "has_beef": "2024-12-10 03:31:17 +0000"
     },
     "done": false
   },
@@ -664,24 +557,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/food/cake": {
-    "criteria": {
-      "has_egg": "2024-12-10 03:31:26 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000"
-    },
-    "done": false
-  },
-  "bakery:recipes/oat_seeds": {
-    "criteria": {
-      "has_wheat_seeds": "2024-12-10 03:31:55 +0000"
-    },
-    "done": false
-  },
   "regions_unexplored:recipes/transportation/pine_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
@@ -694,12 +569,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
   "regions_unexplored:recipes/transportation/palm_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
@@ -709,12 +578,6 @@
   "regions_unexplored:recipes/transportation/socotra_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2024-12-10 03:32:51 +0000"
     },
     "done": false
   },
@@ -742,12 +605,6 @@
     },
     "done": false
   },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
@@ -772,54 +629,11 @@
     },
     "done": false
   },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
   "regions_unexplored:recipes/transportation/baobab_boat": {
     "criteria": {
       "in_water": "2024-12-10 03:29:59 +0000"
     },
     "done": false
-  },
-  "mca:recipes/misc/potions": {
-    "criteria": {
-      "has_item": "2024-12-10 03:31:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "comforts:hammock_white": {
-    "criteria": {
-      "has_white_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "usefulbackpacks:recipes/filter_configurator": {
-    "criteria": {
-      "has_leather": "2024-12-10 03:31:17 +0000",
-      "has_wool": "2024-12-10 03:31:49 +0000"
-    },
-    "done": false
-  },
-  "tombstone:adventure/enchant_grave_key": {
-    "criteria": {
-      "has_upgraded_grave_key": "2024-12-10 03:33:23 +0000"
-    },
-    "done": true
   },
   "regions_unexplored:recipes/transportation/willow_boat": {
     "criteria": {
@@ -839,9 +653,247 @@
     },
     "done": false
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-12-10 03:31:17 +0000",
+      "has_the_recipe": "2024-12-10 03:54:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "usefulbackpacks:recipes/backpack_small": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000",
+      "has_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "usefulbackpacks:recipes/filter_configurator": {
+    "criteria": {
+      "has_leather": "2024-12-10 03:31:17 +0000",
+      "has_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2024-12-10 03:31:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-10 03:31:26 +0000"
+    },
+    "done": false
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2024-12-10 03:31:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "comforts:sleeping_bag_white": {
+    "criteria": {
+      "has_white_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "comforts:hammock_white": {
+    "criteria": {
+      "has_white_wool": "2024-12-10 03:31:49 +0000"
+    },
+    "done": false
+  },
+  "bakery:recipes/oat_seeds": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-10 03:31:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-12-10 03:32:51 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-12-10 03:32:51 +0000",
+      "has_the_recipe": "2024-12-10 03:54:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-12-10 03:32:51 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:33:22 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2024-12-10 03:33:23 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-12-10 03:33:23 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:33:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/teleport_to_grave": {
+    "criteria": {
+      "coded_trigger": "2024-12-10 03:33:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-12-10 04:01:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-10 04:04:02 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/vanilla_dirt_chest": {
+    "criteria": {
+      "has_iron_ingot": "2024-12-10 03:53:47 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 04:03:42 +0000"
+    },
+    "done": false
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2024-12-10 03:56:23 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-12-10 04:03:42 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-12-10 04:01:18 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-12-10 04:01:18 +0000"
     },
     "done": false
   },
